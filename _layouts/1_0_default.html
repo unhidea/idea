@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+<!--idea-meta
+version: {{page.version}} 
+team: 
+  star: {{page.team.star}}
+  detail: {{ page.team.detail}} 
+resources:
+  star: {{page.resources.star}}
+  detail: {{page.resources.detail}}
+skills:
+  star: {{page.skills.star}}
+  detail: {{page.skills.detail}}
+keywords: {{page.keywords}}
+title: {{page.title}}
+what: {{page.what}}
+why: {{page.why}}
+-->
+  </body>
+
+</html>

@@ -11,3 +11,8 @@ github_username: unhidea
 
 # Build settings
 markdown: kramdown
+
+# il8n
+languages:
+  - id: zh
+    name: 中文
